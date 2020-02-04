@@ -1,0 +1,49 @@
+body
+{
+    z-index: 2;
+    width: 1920px;
+    height: 1080px;
+    background: #FFFFFF
+}
+
+.text 
+{
+    position: relative;
+    align-content: center;
+    left: 25%;
+    right: 25%;
+    width: 50%;
+    text-align: center;
+}
+
+.bouton
+{
+    position: relative;
+    left: 25%;
+    width: 50%;
+}
+
+#h  /* each bouton */
+{
+    z-index: 3;
+    width: 339px;
+    height: 106px;
+    background: #9cb3e3;
+    height: 56px;
+    width: 116px;
+    border-radius: 15px;
+    font-size: xx-large;
+}
+
+#h 
+{
+    z-index: 3;
+    width: 339px;
+    height: 106px;
+    font-family: "Segoe UI";
+    font-size: 72px;
+    font-weight: 400;
+    line-height: 96px;
+    text-align: center;
+}
+
