@@ -1,7 +1,7 @@
 {% extends 'base.html.twig' %}
 
 {% block stylesheets %}
-    <link href="{{ absolute_url('./css/page1.css') }}" rel="stylesheet"/>
+    <link href="./css/style.css" rel="stylesheet"/>
 {% endblock %}
 {% block body %}
     <div class='text'>
@@ -9,9 +9,11 @@
         <p>sur l'outil d'attribution de mot de pass wi-fi de la mairie d'echirolle.</p>
         <p>Veuillez choisir la durée de votre conexion wi-fi s'il vous plaît.</p>
     </div>
-    <div class='bouton'>
-        <input type="button" value="1H" href="{{ path('Password_wifi') }}">
-        <input type="button" value="2H" href="{{ path('Password_wifi') }}">
-        <input type="button" value="3H" href="{{ path('Password_wifi') }}">
+    <div id='bouton'>
+        <form>
+            <input class='bouton' type="button" value="1H" href="./templates/mdp.html.twig">
+            <input class='bouton' type="button" value="2H" href="{{ path('Password_wifi') }}">
+            <input class='bouton' type="button" value="3H" href="{{ path('Password_wifi') }}">
+        </form>
     </div>
 {% endblock %}
