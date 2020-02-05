@@ -1,10 +1,41 @@
-#rectangleS {
+.text 
+{
+    position: relative;
+    align-content: center;
+    left: 25%;
+    right: 25%;
+    width: 50%;
+    text-align: center;
+}
+
+#bouton
+{
+    position: relative;
+    left: 25%;
+    width: 50%;
+    text-align: center;
+}
+
+.bouton  /* each bouton */
+{
+    height: 56px;
+    width: 116px;
+    border-radius: 15px;
+    font-size: xx-large;
+}
+
+
+/* page 2 */
+#rectangleS 
+{
     z-index: 2;
     width: 1920px;
     height: 1080px;
-    background: #FFFFFF}
-  
-  #votreclesw {
+    background: #FFFFFF
+}
+
+#votreclesw 
+{
     z-index: 3;
     width: 1301px;
     height: 210px;
@@ -13,22 +44,25 @@
     font-weight: 400;
     line-height: 96px;
     text-align: center;
-  }
-  
-  #newgroup {
+}
+
+#newgroup 
+{
     z-index: 3;
     width: 601px;
     height: 152px;
-  }
-  
-  #rectangle {
+}
+
+#rectangle 
+{
     z-index: 4;
     width: 601px;
     height: 152px;
     background: #e8f0f9;
-  }
-  
-  #a {
+}
+
+#a 
+{
     z-index: 4;
     width: 601px;
     height: 152px;
@@ -37,16 +71,18 @@
     font-weight: 400;
     line-height: 128px;
     text-align: center;
-  }
-  
-  #line {
+}
+
+#line 
+{
     z-index: 3;
     width: 259px;
     height: 2px;
     border: solid #808080
-  }
-  
-  #timer {
+}
+
+#timer {
+
     z-index: 3;
     width: 145px;
     height: 75px;
@@ -54,9 +90,10 @@
     font-size: 48px;
     font-weight: 400;
     line-height: 64px;
-  }
-  
-  #lacleswi-f {
+}
+
+#lacleswi-f 
+{
     z-index: 3;
     width: 1163px;
     height: 262px;
@@ -65,5 +102,4 @@
     font-weight: 400;
     line-height: 64px;
     text-align: center;
-  }
-  
+}
