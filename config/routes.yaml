@@ -2,10 +2,10 @@
 #    path: /
 #    controller: App\Controller\DefaultController::index
 
-index:
-    path: /
-    controller: App\Controller\Index::index
+#index:
+#    path: /
+#    controller: App\Controller\Index::index
 
 Password_wifi:
     path: /
-    controller: App\Controller\Password_wifi::index
+    controller: App\Controller\Password_wifi::mdp
