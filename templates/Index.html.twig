@@ -11,9 +11,9 @@
     </div>
     <div id='bouton'>
         <form>
-            <input class='bouton' type="button" value="1H" href="./templates/mdp.html.twig">
-            <input class='bouton' type="button" value="2H" href="{{ path('Password_wifi') }}">
-            <input class='bouton' type="button" value="3H" href="{{ path('Password_wifi') }}">
+            <input class='bouton' type="button" value="1H" href="{{ path('Password_wifi', {temp: '1h'}) }}">
+            <input class='bouton' type="button" value="2H" href="{{ path('Password_wifi', {temp: '2h'}) }}">
+            <input class='bouton' type="button" value="3H" href="{{ path('Password_wifi', {temp: '3h'}) }}">
         </form>
     </div>
 {% endblock %}
