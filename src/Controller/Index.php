@@ -2,6 +2,8 @@
 namespace App\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
+use App\Repository\ClesRepository;
+use Doctrine\ORM\Mapping as ORM;
 
 class Index extends AbstractController
 {
@@ -26,7 +28,7 @@ class Index extends AbstractController
     public function getMdp($durer)
     {
         if ($durer == 1){
-            $password = "salut";
+            $password = $this->getMdp1h(1);
         }elseif ($durer == 2){
             $password = "hello";
         }else{
@@ -36,8 +38,11 @@ class Index extends AbstractController
     }
 
 
-    public function getMdp1h()
+    public function getMdp1h($id)
     {
+        $password = getDoctrine()
+            ->getRepository(Cles::class)
+            ->getKey($id);
         //get un mdp de 1h
         //dellete this mdp de 1h
         return $password;
