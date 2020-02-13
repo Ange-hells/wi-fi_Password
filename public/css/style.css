@@ -19,9 +19,16 @@
 .bouton  /* each bouton */
 {
     height: 56px;
-    width: 116px;
+    width: 200px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 1px solid black;
     border-radius: 15px;
+    text-decoration: none;
     font-size: xx-large;
+    color: black;
+    margin: 2px;
 }
 
 
